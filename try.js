@@ -37,5 +37,6 @@ board.on("ready", function() {
     //}.bind(this), 250);
 });
 
-
-
+board.on("error", function(error) {
+  console.log(error);
+});
